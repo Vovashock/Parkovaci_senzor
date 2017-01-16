@@ -58,7 +58,7 @@ int main(void)
 	lcdInitialise(LCD_ORIENTATION1);
 	lcdClearDisplay(decodeRgbValue(255, 255, 255));
 	Ultrasonic_init();
-	Init_Buzzer(); // nefunguje kvoli vnutornym hodinam
+	Init_Buzzer();
 
 
 	lcdPutS("Prvy snimac: ", lcdTextX(0), lcdTextY(0), decodeRgbValue(0, 0, 0), decodeRgbValue(31, 31, 31));
